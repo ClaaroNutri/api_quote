@@ -26,8 +26,4 @@ fetch("http://api.quotable.io/random")
 })
 
 
-boton.addEventListener("click", ()=>{
 
-    botonEscondido.classList.remove("hidden")
-
-})
