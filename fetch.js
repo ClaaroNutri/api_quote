@@ -10,7 +10,7 @@ const contenido=document.querySelector("#contenido")
 boton.addEventListener("click", () =>{
  
 
-fetch("http://api.quotable.io/random")
+fetch("https://api.quotable.io/random")
 .then((res)=>{
     console.log(res);
     return res.json()
